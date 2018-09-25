@@ -36,7 +36,7 @@
 
         while (!lastLine.equals("")) {
             flag = calculatePixelSize(lastLine);
-            if (flag < 192) {
+            if (flag < numberOfPixels) {
                 description.append(lastLine);
                 lastLine = "";
                 return;
